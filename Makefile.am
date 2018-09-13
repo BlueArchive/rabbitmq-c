@@ -395,6 +395,5 @@ clean-local:
 distclean-local:
 	-$(MAKE) -C codegen distclean
 
-ifneq ($(MAIN_DIR),)
--include $(MAIN_DIR)/Makefile.common
-endif
+build-image:
+	@echo Nothing to build
